@@ -1,0 +1,9 @@
+[package]
+name = "kinetics-cron-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kinetics = "0.2.1"
+kinetics-macro = "0.2.1"
+aws-sdk-sqs = "1.67.0"
