@@ -1,9 +1,8 @@
 [package]
 name = "kinetics-cron-template"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
-kinetics-macro = "0.3.4"
-lambda_runtime = "0.13.0"
-aws-sdk-sqs = "1.67.0"
+kinetics = "0.10.3"
+tower = "^0"
